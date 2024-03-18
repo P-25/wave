@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI currentScoreText;
     public TextMeshProUGUI bestScoreText;
     public TextMeshProUGUI startText;
+    public TextMeshProUGUI musicStart;
+    public TextMeshProUGUI musicStop;
 
     int currentScore;
 

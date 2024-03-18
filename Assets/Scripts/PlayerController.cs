@@ -89,6 +89,7 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(Camera.main.gameObject.GetComponent<CameraShake>().Shake());
 
         Destroy(Instantiate(deathEffect, transform.position, Quaternion.identity), 0.7f);
+        Destroy(this.gameObject);
         StopPlayer();
 
         gameController.CallGameOver();
